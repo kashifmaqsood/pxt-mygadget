@@ -1,4 +1,4 @@
-namespace mygadget {
+namespace pxt-mygadget {
     
     //% block
     export function helloWorld(): void {
