@@ -47,7 +47,7 @@ namespace Mambo {
         else if (choice == 2)
             serial.writeLine("forward " + x)
         else if (choice == 3)
-            serial.writeLine("backward " + x)
+            serial.writeLine("back " + x)
         else if (choice == 4)
             serial.writeLine("up " + x)
         else if (choice == 5)
@@ -88,8 +88,8 @@ namespace Mambo {
     //% block="claw $choice" color="#339933"
     export function claw(choice: ClawOptions) {
         if (choice == 0)
-            serial.writeLine("claw open")
+            serial.writeLine("clawopen")
         else if (choice == 1)
-            serial.writeLine("claw close")
+            serial.writeLine("clawclose")
     }
 }
