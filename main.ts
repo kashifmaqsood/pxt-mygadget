@@ -101,7 +101,7 @@ namespace Mambo {
     
     //% block="headlights mode = $choice brightness = $x" color="#9842f4"
     //% x.min=0 x.max=100 x.defl=50
-    export function Lights(choice: LightOptions, x: number) {
+    export function headlights(choice: LightOptions, x: number) {
         if (choice == 0)
             serial.writeLine("lightsfixed " + x)
         else if (choice == 1)
