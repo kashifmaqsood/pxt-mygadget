@@ -19,7 +19,7 @@ enum TurnOptions {
     Clockwise
 }
 
-//% color="#000099" weight=10 icon="\uf17b" block="Tello"
+//% color="#000099" weight=10 icon="\uf17b" block="Mambo"
 namespace Tello {
 
     //% block color="#006600"
